@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Calculator.h"
 @interface ViewController : UIViewController
 
+@property (nonatomic,weak) IBOutlet UITextField *firstNumber1;
+@property (nonatomic, weak) IBOutlet UITextField *secondNumber2;
+@property (nonatomic, weak) IBOutlet UILabel *answer;
 
 @end
+
+
 
